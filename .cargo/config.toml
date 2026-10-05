@@ -1,0 +1,4 @@
+[env]
+# Cargo resolves this relative to the workspace root, which contains .cargo/.
+# Bevy then loads the shared assets/ directory when launched through Cargo.
+BEVY_ASSET_ROOT = { value = ".", relative = true }

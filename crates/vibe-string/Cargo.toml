@@ -1,0 +1,12 @@
+[package]
+name = "vibe-string"
+description = "The Vibe String rhythm game application"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+bevy.workspace = true
+vibe-string-core.workspace = true
